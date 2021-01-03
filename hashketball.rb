@@ -148,7 +148,7 @@ def num_points_scored(player_search)
 end
 
 def team_colors(team_input)
-  if team_input.downcase == "brooklyn nets"
+  if team_input.downcase == "charlotte hornets"
     return game_hash[:away][:colors]
   else return game_hash[:home][:colors]
   end
